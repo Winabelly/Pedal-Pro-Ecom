@@ -1,0 +1,92 @@
+10:09:51.924
+devDependencies:
+10:09:51.924
++ prettier 3.8.3
+10:09:51.924
++ typescript 5.9.3
+10:09:51.924
+10:09:51.966
+. preinstall$ sh -c 'rm -f package-lock.json yarn.lock; case "$npm_config_user_agent" in pnpm/*) ;; *) echo "Use pnpm instead" >&2; exit 1 ;; esac'
+10:09:51.997
+. preinstall: Done
+10:09:52.151
+Done in 9.1s using pnpm v10.26.1
+10:09:52.343
+Executing user build command: pnpm run build
+10:09:52.727
+10:09:52.727
+> workspace@0.0.0 build /opt/buildhome/repo
+10:09:52.727
+> pnpm run typecheck && pnpm -r --if-present run build
+10:09:52.728
+10:09:53.052
+10:09:53.053
+> workspace@0.0.0 typecheck /opt/buildhome/repo
+10:09:53.054
+> pnpm run typecheck:libs && pnpm -r --filter "./artifacts/**" --filter "./scripts" --if-present run typecheck
+10:09:53.054
+10:09:53.417
+10:09:53.417
+> workspace@0.0.0 typecheck:libs /opt/buildhome/repo
+10:09:53.417
+> tsc --build
+10:09:53.417
+10:09:56.504
+Scope: 4 of 9 workspace projects
+10:09:56.513
+artifacts/api-server typecheck$ tsc -p tsconfig.json --noEmit
+10:09:56.513
+artifacts/mockup-sandbox typecheck$ tsc -p tsconfig.json --noEmit
+10:09:58.544
+artifacts/api-server typecheck: Done
+10:09:58.545
+artifacts/pedal-pro typecheck$ tsc -p tsconfig.json --noEmit
+10:10:07.197
+artifacts/mockup-sandbox typecheck: Done
+10:10:07.199
+scripts typecheck$ tsc -p tsconfig.json --noEmit
+10:10:09.057
+scripts typecheck: Done
+10:10:09.429
+artifacts/pedal-pro typecheck: Done
+10:10:09.825
+Scope: 8 of 9 workspace projects
+10:10:09.832
+artifacts/mockup-sandbox build$ vite build
+10:10:10.274
+artifacts/mockup-sandbox build: failed to load config from /opt/buildhome/repo/artifacts/mockup-sandbox/vite.config.ts
+10:10:10.276
+artifacts/mockup-sandbox build: error during build:
+10:10:10.276
+artifacts/mockup-sandbox build: Error: PORT environment variable is required but was not provided.
+10:10:10.278
+artifacts/mockup-sandbox build:     at file:///opt/buildhome/repo/artifacts/mockup-sandbox/node_modules/.vite-temp/vite.config.ts.timestamp-1780715410076-010032856175c.mjs:145:9
+10:10:10.278
+artifacts/mockup-sandbox build:     at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+10:10:10.278
+artifacts/mockup-sandbox build:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+10:10:10.282
+artifacts/mockup-sandbox build:     at async loadConfigFromBundledFile (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.3_@types+node@25.6.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.21.0_yaml@2.8.4/node_modules/vite/dist/node/chunks/config.js:35936:12)
+10:10:10.282
+artifacts/mockup-sandbox build:     at async bundleAndLoadConfigFile (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.3_@types+node@25.6.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.21.0_yaml@2.8.4/node_modules/vite/dist/node/chunks/config.js:35824:17)
+10:10:10.282
+artifacts/mockup-sandbox build:     at async loadConfigFromFile (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.3_@types+node@25.6.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.21.0_yaml@2.8.4/node_modules/vite/dist/node/chunks/config.js:35791:42)
+10:10:10.282
+artifacts/mockup-sandbox build:     at async resolveConfig (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.3_@types+node@25.6.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.21.0_yaml@2.8.4/node_modules/vite/dist/node/chunks/config.js:35440:22)
+10:10:10.282
+artifacts/mockup-sandbox build:     at async createBuilder (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.3_@types+node@25.6.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.21.0_yaml@2.8.4/node_modules/vite/dist/node/chunks/config.js:33895:19)
+10:10:10.282
+artifacts/mockup-sandbox build:     at async CAC.<anonymous> (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.3_@types+node@25.6.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.21.0_yaml@2.8.4/node_modules/vite/dist/node/cli.js:629:10)
+10:10:10.305
+artifacts/mockup-sandbox build: Failed
+10:10:10.322
+/opt/buildhome/repo/artifacts/mockup-sandbox:
+10:10:10.322
+ ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @workspace/mockup-sandbox@2.0.0 build: `vite build`
+10:10:10.322
+Exit status 1
+10:10:10.364
+ ELIFECYCLE  Command failed with exit code 1.
+10:10:10.891
+Failed: error occurred while running build command
+Support

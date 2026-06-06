@@ -1,0 +1,67 @@
+uploads = []
+
+[[generated]]
+id = "2M6OnGAuMKAxTFIig7weE"
+uri = "file://artifacts/pedal-pro/public/hero.png"
+type = "image"
+title = "Mountain biker hero scene"
+
+[[generated]]
+id = "Chq9yoIY1uPb1D6dJp9IV"
+uri = "file://artifacts/pedal-pro/public/product-1.png"
+type = "image"
+title = "Mountain Explorer Pro"
+
+[[generated]]
+id = "jjc-zmeGpDagEZc0cF1X0"
+uri = "file://artifacts/pedal-pro/public/product-2.png"
+type = "image"
+title = "City Cruiser Elite"
+
+[[generated]]
+id = "ImhqMU68cGZbvw6L5H_Z-"
+uri = "file://artifacts/pedal-pro/public/product-3.png"
+type = "image"
+title = "Road Racer X1"
+
+[[generated]]
+id = "W9BjMB5JNIbPZI6fjmFVU"
+uri = "file://artifacts/pedal-pro/public/product-4.png"
+type = "image"
+title = "Trail Blazer 29"
+
+[[generated]]
+id = "lIK9ZITQ1oxL9fdb_tHzG"
+uri = "file://artifacts/pedal-pro/public/product-5.png"
+type = "image"
+title = "Urban Glide S"
+
+[[generated]]
+id = "7br4K-CDnD8RwSiuXXZb6"
+uri = "file://artifacts/pedal-pro/public/product-6.png"
+type = "image"
+title = "Kids Adventure"
+
+[[generated]]
+id = "JY26C33XZjw7FWPY82TR4"
+uri = "file://artifacts/pedal-pro/public/cat-mountain.png"
+type = "image"
+title = "Mountain Bikes Category"
+
+[[generated]]
+id = "CJBKO6wfURkLesH09W6q-"
+uri = "file://artifacts/pedal-pro/public/cat-road.png"
+type = "image"
+title = "Road Bikes Category"
+
+[[generated]]
+id = "p_s4QLGgqaiyvjocz9K86"
+uri = "file://artifacts/pedal-pro/public/cat-hybrid.png"
+type = "image"
+title = "Hybrid Bikes Category"
+
+[[outputs]]
+id = "Qdta0oHUUXlkqrHn3mzfZ"
+uri = "file://artifacts/pedal-pro/public/cat-kids.jpg"
+type = "image"
+title = "Realistic cycling photo of children riding bicycles in a sunny park"
